@@ -12,11 +12,11 @@ function TodoList() {
 
 	const onChangeTitle = (e) => {
 		e.preventDefault();
-		newArray.title = e.target.vddalue
+		newArray.title = e.target.value;
 	}
 	const onChangeDesc = (e) => {
 		e.preventDefault();
-		newArray.desc = e.target.value
+		newArray.desc = e.target.value;
 	}
 
 	const handleReset = () =>{
