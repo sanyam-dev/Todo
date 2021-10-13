@@ -6,8 +6,8 @@ function TodoList() {
 
 	const newArray = {
 		id: todos.length+1,
-		title: "todo1",
-		desc: "desc1",
+		title: " Something todo ",
+		desc: "Add any meaningful description like time/date/place/etc..",
 	};
 
 	const onChangeTitle = (e) => {
