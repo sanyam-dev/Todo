@@ -12,7 +12,7 @@ function TodoList() {
 
 	const onChangeTitle = (e) => {
 		e.preventDefault();
-		newArray.title = e.target.value
+		newArray.title = e.target.vddalue
 	}
 	const onChangeDesc = (e) => {
 		e.preventDefault();
